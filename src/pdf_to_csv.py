@@ -75,7 +75,7 @@ df = pd.DataFrame(records)
 # Save CSV
 df.to_csv(OUTPUT_CSV, index=False)
 
-print("\n🎉 DONE!")
+print("\n DONE!")
 print(f"📊 Total ECG records extracted: {len(df)}")
-print(f"💾 Saved to: {OUTPUT_CSV}")
+print(f" Saved to: {OUTPUT_CSV}")
 print(df.head())
