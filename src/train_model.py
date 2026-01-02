@@ -92,7 +92,7 @@ print(classification_report(y_test, y_pred))
 joblib.dump(model, "model.pkl")
 joblib.dump(le, "label_encoder.pkl")
 
-print("\n💾 Model saved as model.pkl")
-print("💾 Label encoder saved as label_encoder.pkl")
+print("\n Model saved as model.pkl")
+print(" Label encoder saved as label_encoder.pkl")
 
 
